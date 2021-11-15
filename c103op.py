@@ -2,6 +2,6 @@ import pandas as pd
 import plotly_express as px
 
 df=pd.read_csv("Copy+of+data+-+data.csv")
-fig=px.line(df, x="date", y="cases")
+fig=px.scatter(df, x="date", y="cases")
 
 fig.show()
